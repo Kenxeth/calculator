@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+
+.calc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+
+}
+
+.output{
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 60px;
+}
+
+.number{
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.row{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* .one{
+    align-items: center;
+} */
